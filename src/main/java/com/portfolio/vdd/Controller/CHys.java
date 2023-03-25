@@ -87,6 +87,7 @@ public class CHys {
         hys hYs = shys.getOne(id).get();
         hYs.setNombre(dtohys.getNombre());
         hYs.setPorcentaje(dtohys.getPorcentaje());
+        hYs.setImg(dtohys.getImg());
 
         shys.save(hYs);
         return new ResponseEntity(new Mensaje("Skill actualizada"), HttpStatus.OK);

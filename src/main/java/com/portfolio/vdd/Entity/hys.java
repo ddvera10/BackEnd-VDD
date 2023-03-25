@@ -14,6 +14,7 @@ public class hys {
     private int id;
     private String nombre;
     private int porcentaje;
+    private String img;
 
     public hys() {
     }
@@ -21,6 +22,7 @@ public class hys {
     public hys(String nombre, int porcentaje) {
         this.nombre = nombre;
         this.porcentaje = porcentaje;
+        this.img = img;
     }
 
     public int getId() {
@@ -46,6 +48,14 @@ public class hys {
     public void setPorcentaje(int porcentaje) {
         this.porcentaje = porcentaje;
     }
+     public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
+
 
     
     
